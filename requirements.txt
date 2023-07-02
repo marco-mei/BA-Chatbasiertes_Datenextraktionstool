@@ -1,3 +1,5 @@
 ifcopenshell
 langchain
 pandas
+chromadb
+tiktoken

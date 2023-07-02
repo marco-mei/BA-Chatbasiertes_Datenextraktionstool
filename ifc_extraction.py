@@ -103,5 +103,5 @@ def convert_to_csv(ifc_path):
 
 
 if __name__ == '__main__':
-    output = convert_to_csv("ifc_models/Beispielbüro.ifc")
+    output = convert_to_csv("data_ifc_models/Beispielbüro.ifc")
     print(json.dumps(output, indent=4, ensure_ascii=False))

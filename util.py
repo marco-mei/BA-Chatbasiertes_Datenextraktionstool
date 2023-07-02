@@ -74,5 +74,5 @@ def create_attribute_file(ifc_file):
 
 
 if __name__ == "__main__":
-    print(get_number_of_all_entities("ifc_models/AC20-FZK-Haus.ifc"))
-    print(test_function("ifc_models/Beispielbüro.ifc"))
+    print(get_number_of_all_entities("data_ifc_models/AC20-FZK-Haus.ifc"))
+    print(test_function("data_ifc_models/Beispielbüro.ifc"))
