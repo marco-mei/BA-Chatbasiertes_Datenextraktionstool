@@ -1,0 +1,34 @@
+Bauteiltyp,GUID,Geschoss,IfcType,Material,Name,Zugehörigkeit,id
+Sanitärobjekt,0KLY4szYf9cgrYtM_K93C5,R-008,IfcSanitaryTerminal,,Doppelwaschbecken,EG--,108258
+Sanitärobjekt,1MX2WlGC94tg8SuInLrDkU,R-008,IfcSanitaryTerminal,,Handtrockner,EG--,112231
+Sanitärobjekt,06LmVzI$PCGBB2c4CJcsfO,R-008,IfcSanitaryTerminal,,WC,EG--,135342
+Sanitärobjekt,0jrOtuD9r4khj66Wg$Nr7y,R-008,IfcSanitaryTerminal,,WC,EG--,135384
+Sanitärobjekt,2ePcD3ylf6S8yCLa_DG8S5,R-009,IfcSanitaryTerminal,,Urinal ,EG--,136938
+Sanitärobjekt,0v09gpHGH29hsFzZZCENQH,R-009,IfcSanitaryTerminal,,Urinal ,EG--,136980
+Sanitärobjekt,1uDKTWLn9CUeP4oXRw7uVk,R-009,IfcSanitaryTerminal,,Urinal ,EG--,137018
+Sanitärobjekt,0HzRhx4w11thUiJY3ttvRa,R-009,IfcSanitaryTerminal,,Doppelwaschbecken,EG--,137056
+Sanitärobjekt,2LUyXHDqb2fPBlle6VF5cO,R-009,IfcSanitaryTerminal,,Handtrockner,EG--,138093
+Sanitärobjekt,36JojM_3n18gat0dDNBl6x,R-009,IfcSanitaryTerminal,,WC,EG--,138131
+Sanitärobjekt,1_Rb49x_j4Dga$DPnaHax9,R-010,IfcSanitaryTerminal,,Doppelwaschbecken,EG--,138290
+Sanitärobjekt,3l68fY5R12OOIBYeO65GFP,R-010,IfcSanitaryTerminal,,WC barrierefrei,EG--,143482
+Sanitärobjekt,0lRSt8JGXDrfimMpjXi_Jg,R-010,IfcSanitaryTerminal,,Handtrockner,EG--,143524
+Sanitärobjekt,2CMM8lK4r6Te25vAltd1gc,R-010,IfcSanitaryTerminal,,Stand Bidet,EG--,156520
+Sanitärobjekt,0ffrBHW$H4GuWXkLnW20zC,R-010,IfcSanitaryTerminal,,Duschabtrennung ,EG--,164112
+Sanitärobjekt,0$NtCeT5b1VumXw7e1VkrH,R-010,IfcSanitaryTerminal,,Stuhl-018,EG--,166379
+Sanitärobjekt,38G5_LBnb5IQa_mB$kwbkt,R-013,IfcSanitaryTerminal,,Büroplanung ,EG--,239232
+Sanitärobjekt,1heSIWcw14Bv8LNODeB$qw,R-016,IfcSanitaryTerminal,,Waschbecken ,EG--,441841
+Sanitärobjekt,0EXKcEYvr1bxcZJlksTyBo,R-022,IfcSanitaryTerminal,,Büroplanung ,EG--,586337
+Sanitärobjekt,3Z2s2K_sP4hA1ktdG90ADA,R-024,IfcSanitaryTerminal,,Büroplanung ,OG--,740364
+Sanitärobjekt,0gN4wgIsr5Ix9UADnEa7hE,R-024,IfcSanitaryTerminal,,WC,OG--,746704
+Sanitärobjekt,2thCQSH890vxNVdBEy7mto,R-025,IfcSanitaryTerminal,,WC,OG--,753161
+Sanitärobjekt,3keBQLoxnCdemSQlBcjmqQ,R-025,IfcSanitaryTerminal,,Büroplanung ,OG--,756166
+Sanitärobjekt,0RRotUHlDB2x9X5HYpo3nW,R-026,IfcSanitaryTerminal,,Kühlschrank,OG--,762324
+Sanitärobjekt,0ehit30PD3dA5EWHArEyOO,R-026,IfcSanitaryTerminal,,Kaffeemaschine,OG--,769238
+Sanitärobjekt,2ktgCVn2H7qBbxbyMJRm5r,R-026,IfcSanitaryTerminal,,Kochfeld Elektrisch,OG--,781713
+Sanitärobjekt,1HVuD4HabDO8tWUTVdxPhf,R-027,IfcSanitaryTerminal,,Kühlschrank,OG--,1080507
+Sanitärobjekt,3KL2RDkmn9GurmJeLzMpwx,R-027,IfcSanitaryTerminal,,Kochfeld Elektrisch,OG--,1082175
+Sanitärobjekt,3f$gBFvvbFEfWpJiJJnbKm,R-027,IfcSanitaryTerminal,,Kaffeemaschine,OG--,1091044
+Sanitärobjekt,18MYOxnBfFVAfW5YHvTTzd,R-024,IfcSanitaryTerminal,,WC,OG--,1389543
+Sanitärobjekt,0iAC2hdpv9YPol42f384S$,R-024,IfcSanitaryTerminal,,Büroplanung ,OG--,1389581
+Sanitärobjekt,04_OtcsrPBffxhxkiMQz4a,R-025,IfcSanitaryTerminal,,WC,OG--,1389740
+Sanitärobjekt,0KN2mWRIz2s8maQg3mS$AK,R-025,IfcSanitaryTerminal,,Büroplanung ,OG--,1389778

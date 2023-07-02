@@ -1,0 +1,20 @@
+Bauteiltyp,Breite/Höhe,Einheit,GUID,Geschoss,IfcType,IsExternal,LoadBearing,Material,Name,Status,id,Öffnungsbreite,Öffnungshöhe
+Allgemeines Bauteil,51⁵/136,cm,1x9JXj7Zz2MRud7pgwinvA,R-011,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],172550,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,2JzvEMsCr6RA14A$7uEJP6,R-011,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],176016,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,3H75jWTVDDOeBEV4eNlv52,R-011,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],179478,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,0TV1zOCSz9NAvHGKU9Xr0A,R-011,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],182940,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,2HXa0Kehj1ffrfXeEi5zqD,R-011,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],186402,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,0XTwBw75n8VxjoDCB8mTTe,R-023,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],728344,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,1SeQmLSevER9gLGpjEJXUr,R-023,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],731806,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,3l0PRqr6TDWu$UzxCWNo87,R-023,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],735268,51⁵,136
+Allgemeines Bauteil,152⁵/76,cm,3Er8T6crDFA8w2FxuHqAXa,R-023,IfcBuildingElementProxy,False,False,,Büroarbeitsplatz,['EXISTING'],737224,152⁵,76
+Allgemeines Bauteil,51⁵/136,cm,3hz_BUC1r3LhtZydXvdu$m,R-026,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],871874,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,2vSHazrB99_AS2FfzMMLE_,R-026,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],896942,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,0xlYNQHVnBDhuWuToSmrE0,R-026,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],900404,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,1LNli6SoTBcvChvbhqGxFh,R-026,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],925472,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,0ohgH2TYz8VOLuyJxnLiDv,R-026,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],939737,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,2tmbxNaZr5J82pcPHlboiJ,R-027,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],1094656,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,2kYDVXZ8HAMwiFy1eTcjnA,R-027,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],1119724,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,00084q2Sb0mwO64bjaBAz2,R-027,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],1133989,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,3b5NjDd1L4MgF2rB34lQXz,R-027,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],1148254,51⁵,136
+Allgemeines Bauteil,51⁵/136,cm,10GN6h$sf6cxVhrAgETG26,R-027,IfcBuildingElementProxy,False,False,,Zimmerpflanze,['EXISTING'],1389382,51⁵,136

@@ -1,0 +1,4 @@
+Bauteiltyp,GUID,Geschoss,IfcType,Length,Material,Name,Status,id
+Geländer,2Nln0_tEv39eJ6nlyOePqq,OG,IfcRailing,3.26400000433,,Geländer-002,['EXISTING'],718445
+Geländer,0GuVYAXGb6l8KUqIDekBg_,OG,IfcRailing,7.19999999924,,Geländer-003,['EXISTING'],718835
+Geländer,2Z6129NHf3BgtsFLaBxSni,OG,IfcRailing,3.26400000433,,Geländer-004,['EXISTING'],719221
