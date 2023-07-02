@@ -1,0 +1,3 @@
+ifcopenshell
+langchain
+pandas
