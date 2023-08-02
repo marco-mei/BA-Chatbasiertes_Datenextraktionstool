@@ -7,8 +7,8 @@ import ifcopenshell.util.element as Element
 from util import get_keyvalues, ifc_entities
 
 
-def create_multiple_csv(ifc_path):
-    ifc_model = ifcopenshell.open(".././data_ifc_models/Beispielbüro.ifc")
+def create_multiple_csv(path):
+    ifc_model = ifcopenshell.open(path)
     components = ifc_model.by_type("IfcElement")
     model_entities = list(set([component.is_a() for component in components if component.is_a().replace('StandardCase', '') in ifc_entities]))
 
@@ -38,8 +38,8 @@ def create_multiple_csv(ifc_path):
     print(f"\nMultiple CSV have been created for {len(model_entities)} entities")
 
 
-def create_single_csv(ifc_path):
-    ifc_model = ifcopenshell.open(".././data_ifc_models/Beispielbüro.ifc")
+def create_single_csv(path):
+    ifc_model = ifcopenshell.open(path)
     components = [component for component in ifc_model.by_type("IfcElement") if component.is_a().replace('StandardCase', '') in ifc_entities]
     column_names = []
 

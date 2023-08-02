@@ -19,14 +19,13 @@ def execute_model(path, query):
     # print(docs)
 
     # Create an index using the loaded documents
-    index_creator = VectorstoreIndexCreator()
-    docsearch = index_creator.from_loaders([loader])
+    docsearch = VectorstoreIndexCreator().from_loaders([loader])
 
     # Prompt template
     prompt_template = """Given the following csv file that contains information about a building information model with filetype
             ifc and a question, create a final answer. Every row in the file describes a building element and every row
             consists of attributes and model information about the building element. The file is encoded in UTF-8.
-            If you don't know the answer, just say that you don't know. Don't try to make up an answer.
+            
             Respond in German.
             
             {context}
@@ -42,7 +41,7 @@ def execute_model(path, query):
     chain_type_kwargs = {"prompt": prompt}
 
     # Define document name as context
-    context = "CONTEXT: " + path.split("/")[-1].split(".")[0]
+    context = "IFC-Modell: " + path.split("/")[-1].split(".")[0]
 
     # Create a question-answering chain using the index
     llm = ChatOpenAI(model_name='gpt-3.5-turbo')
@@ -56,4 +55,5 @@ def execute_model(path, query):
 if __name__ == '__main__':
     path = ".././data_single_csv/Model_Attributes.csv"
     # path = ".././data_multiple_csv/IfcCurtainWall_Attributes.csv"
-    execute_model(path, "Wie viele Vorhangfassaden sind im Modell?")
+    response = execute_model(path, "Welches Material haben die Wände?")
+    print(response)

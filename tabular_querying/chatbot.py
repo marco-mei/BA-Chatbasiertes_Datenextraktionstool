@@ -2,9 +2,9 @@ from openai_tabular_data_query import execute_model
 
 
 def start_chatbot(path):
-    print("Welcome to the chatbot. Please enter your question.")
+    print("Willkommen beim Chatbot. Bitte geben Sie Ihre Frage ein.\n")
     while True:
-        user_input = input("User: ")
+        user_input = input("Frage: ")
         if user_input.lower() == "exit":
             break
         else:

@@ -13,4 +13,4 @@ def main(path, mode):
 
 
 if __name__ == '__main__':
-    main(".././data_ifc_models/Beispielbüro.ifc", "single")
+    main(".././data_ifc_models/Beispielbüro.ifc", "multiple")
