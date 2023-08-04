@@ -1,0 +1,14 @@
+Bauteiltyp,Betongüte,Expositionsklasse,GUID,Geschoss,GrossArea,GrossVolume,IfcType,IsExternal,LoadBearing,Material,Name,NetArea,NetVolume,Perimeter,Sichtbetonklasse,Stahlbeton,Status,WU,Width,id,Überwachungsklasse
+Decke,C40/50,XF2,3ORwOGNIL8yPoTWgMSavB$,EG,480.0,96.0,IfcSlab,False,True,Stahlbeton,RD-001,480.0,96.0,104.0,SB3,{'id': 15472, 'type': 'IfcPhysicalComplexQuantity', 'Discrimination': '', 'properties': {'Width': 0.2}},['EXISTING'],False,0.2,15475,ÜK2
+Decke,,,2cY6SUNC51oxID$5PCCksJ,EG,161.1038,16.11038,IfcSlab,False,True,,RD-002,155.834,15.5834,51.18,,,['EXISTING'],,0.1,16650,
+Decke,,,0I8q7Ti5X4dAsqAJxp8OLF,EG,120.0,12.0,IfcSlab,False,True,,RD-003,113.8634,11.38634,44.0,,,['EXISTING'],,0.1,66510,
+Decke,,,1L6hsLmvv16gR6ujgeqmm2,EG,161.1038,16.11038,IfcSlab,False,True,,RD-002,155.834,15.5834,51.18,,,['EXISTING'],,0.1,88357,
+Decke,C40/50,XF2,3DVHAp_3L4PgSTTVr3KXQH,OG,161.1038,16.11038,IfcSlab,False,True,Stahlbeton,RD-004,161.1038,16.11038,51.18,SB3,{'id': 711735, 'type': 'IfcPhysicalComplexQuantity', 'Discrimination': '', 'properties': {'Width': 0.1}},['EXISTING'],False,0.1,711738,ÜK2
+Decke,C40/50,XD2,2Fud4mz1D9iB3f6l2KCWMd,OG,161.1038,16.11038,IfcSlab,False,True,Stahlbeton,RD-004,161.1038,16.11038,51.18,SB2,{'id': 711858, 'type': 'IfcPhysicalComplexQuantity', 'Discrimination': '', 'properties': {'Width': 0.1}},['EXISTING'],False,0.1,711861,ÜK1
+Decke,C40/50,XD2,2oNVzdfSDFGeOy1e4di8nA,OG,4.56959999797,0.456959999797,IfcSlab,False,True,Stahlbeton,RD-006,4.56959999797,0.456959999797,9.32800000371,SB2,{'id': 711977, 'type': 'IfcPhysicalComplexQuantity', 'Discrimination': '', 'properties': {'Width': 0.1}},['EXISTING'],False,0.1,711980,ÜK1
+Decke,C40/50,XD2,1JKjr4bED4gQObdNIMU2Eu,OG,40.9,4.09,IfcSlab,False,True,Stahlbeton,RD-005,40.9,4.09,28.18,SB2,{'id': 712096, 'type': 'IfcPhysicalComplexQuantity', 'Discrimination': '', 'properties': {'Width': 0.1}},['EXISTING'],False,0.1,712099,ÜK1
+Decke,C40/50,XD2,2QO5UfffbCPx8j5n$AER8d,OG,4.56959999797,0.456959999797,IfcSlab,False,True,Stahlbeton,RD-006,4.56959999797,0.456959999797,9.32800000371,SB2,{'id': 712215, 'type': 'IfcPhysicalComplexQuantity', 'Discrimination': '', 'properties': {'Width': 0.1}},['EXISTING'],False,0.1,712218,ÜK1
+Decke,,,1bXxP4I8bC2fssm68hE6h7,OG,161.1038,16.11038,IfcSlab,False,True,Estrich + Parkett,RD-007,160.246513344,16.0246513344,51.18,,,['EXISTING'],,0.1,716147,
+Decke,,,0n5EyFXfT6aOgDP_v3QWK3,OG,161.1038,16.11038,IfcSlab,False,True,,RD-007,160.246038377,16.0246038377,51.18,,,['EXISTING'],,0.1,716852,
+Decke,,,1Ki$saryn94AxrlynMTLix,OG,438.0324,43.80324,IfcSlab,False,True,,RD-008,438.0324,43.80324,100.72,,{'id': 1390149, 'type': 'IfcPhysicalComplexQuantity', 'Discrimination': '', 'properties': {'Width': 0.1}},['EXISTING'],False,0.1,1390152,
+Decke,C40/50,XF2,3FRsy6ee99x9YuUYxdbjHi,OG,448.1444,215.109312,IfcSlab,False,True,Stahlbeton,RD-010,448.1444,215.109312,101.52,SB3,,['EXISTING'],,0.48,1390737,ÜK2

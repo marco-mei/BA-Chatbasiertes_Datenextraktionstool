@@ -12,4 +12,4 @@ def start_chatbot(path):
 
 
 if __name__ == '__main__':
-    start_chatbot(".././data_single_csv/Model_Attributes.csv")
+    start_chatbot("../step2/data_single_csv/Model_Attributes.csv")

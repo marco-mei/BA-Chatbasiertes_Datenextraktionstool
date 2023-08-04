@@ -11,7 +11,7 @@ def execute_model(path, query):
     os.environ["OPENAI_API_KEY"] = "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"
 
     # Load the documents using pandas
-    doc_path = ".././data_multiple_csv/IfcWall_Attributes.csv"
+    doc_path = "../step2/data_single_csv/Model_Attributes.csv"
     loader = CSVLoader(file_path=doc_path)
     # # loader = DirectoryLoader('../', glob="**/*.md")
     # loader = DirectoryLoader('.././data', glob='**/*.csv')
@@ -53,7 +53,7 @@ def execute_model(path, query):
 
 
 if __name__ == '__main__':
-    path = ".././data_single_csv/Model_Attributes.csv"
+    path = "../step2/data_single_csv/Model_Attributes.csv"
     # path = ".././data_multiple_csv/IfcCurtainWall_Attributes.csv"
     response = execute_model(path, "Welches Material haben die Wände?")
     print(response)

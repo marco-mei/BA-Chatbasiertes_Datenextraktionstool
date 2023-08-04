@@ -1,0 +1,4 @@
+Bauteiltyp,GUID,Geschoss,GrossSideArea,Height,IfcType,IsExternal,Length,Material,Name,NetSideArea,Status,SurfaceSpreadOfFlame,Width,id
+Vorhangfassade,2auBupRvLEVe6igA$LKgM3,EG,20.0000000894,2.00000000447,IfcCurtainWall,True,10.0000000224,,Fassade-001,20.0000000894,['EXISTING'],,0.133,70550
+Vorhangfassade,3nvHeFUQX2LgDeatepYBrZ,EG,20.000000082,2.0000000041,IfcCurtainWall,True,10.0000000205,,Fassade-001,20.000000082,['EXISTING'],,0.133,73778
+Vorhangfassade,0pBA$sBq1Fl97T5Ep9UAWC,OG,23.0000000615,2.30000000308,IfcCurtainWall,True,10.0000000134,,Fassade-001,23.0000000615,['EXISTING'],,0.133,715442

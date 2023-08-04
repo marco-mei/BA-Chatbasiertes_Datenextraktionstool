@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "category": "Metadaten",
+    "question": "Nach welcher IFC Struktur ist das Modell aufgebaut?"
+  },
+  {
+    "id": 2,
+    "category": "Metadaten",
+    "question": "Mit welcher CAD Anwendung wurde das Modell erstellt?"
+  },
+  {
+    "id": 3,
+    "category": "Einfache Informationsabfrage",
+    "question": "Welches Material haben die Wände im Erdgeschoss?"
+  },
+  {
+    "id": 4,
+    "category": "Einfache Informationsabfrage",
+    "question": "Welche Fläche hat das erste Obergeschoss?"
+  },
+  {
+    "id": 5,
+    "category": "Einfache Informationsabfrage",
+    "question": "Welche Expositionsklasse haben die Decken im Erdgeschoss?"
+  },
+  {
+    "id": 6,
+    "category": "Einfache Informationsabfrage",
+    "question": "Wie hoch sind die Innentüren?"
+  },
+  {
+    "id": 7,
+    "category": "Komplexe Informationsabfrage",
+    "question": "Sind alle Türen barrierefrei?"
+  },
+  {
+    "id": 8,
+    "category": "Komplexe Informationsabfrage",
+    "question": "Enthalten alle Betonbauteile eine Angabe zur Betongüte?"
+  },
+  {
+    "id": 9,
+    "category": "Komplexe Informationsabfrage",
+    "question": "Hat jeder Raum mindestens eine Fensterfläche von 5 m²?"
+  },
+  {
+    "id": 10,
+    "category": "Komplexe Informationsabfrage",
+    "question": "Weisen alle Brandwände eine Feuerwiederstandklasse von F60 auf?"
+  }
+]
