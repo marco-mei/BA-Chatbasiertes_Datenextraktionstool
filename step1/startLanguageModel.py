@@ -17,7 +17,8 @@ def num_tokens_from_string(path) -> int:
     return num_tokens
 
 
-def startLanguageModel(path, query):
+def startLanguageModel(path):
+    """Takes a path to an ifc file and returns a language model that can answer questions about the ifc file."""
     os.environ["OPENAI_API_KEY"] = "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"  # personal key
 
     # Load the document
@@ -36,6 +37,8 @@ def startLanguageModel(path, query):
     # Prompt template
     prompt_template = """Given the following ifc file that contains information about a building information model with filetype
                 ifc and a question, create a final answer.
+                Answer detailed and in full sentences. Round all number to two decimal places.
+                Below the short answer you should add a long answer that contains more information and reasons for your answer (Max. 2 sentences).
 
                 Respond in German.
                 
@@ -48,23 +51,30 @@ def startLanguageModel(path, query):
     # Create a prompt using the template
     prompt = PromptTemplate(template=prompt_template, input_variables=["question", "context"])
 
-    # Create context
-    context = path.split("/")[-1].split(".")[0]
-
     # Prompt kwargs
     chain_type_kwargs = {"prompt": prompt}
 
-    # Create a question-answering chain using the index
-    llm = ChatOpenAI(model_name='gpt-3.5-turbo-16k')
-    chain = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=docsearch.as_retriever(), chain_type_kwargs=chain_type_kwargs)
+    # Configure the language model
+    llm = ChatOpenAI(model_name='gpt-3.5-turbo-16k', temperature=0)
 
-    # Pass a query to the chain
-    response = chain({"query": query})
+    # Create a question-answering chain using the index
+    chain = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=docsearch.as_retriever(), chain_type_kwargs=chain_type_kwargs)
+    return chain
+
+
+def generateAnswer(path, query, chain):
+    """Takes a path to an ifc file, a query and a language model and returns an answer to the query."""
+
+    # Create context
+    context = path.split("/")[-1].split(".")[0]
+
+    response = chain({"query": query, "context": context})
     return response['result']
 
 
 if __name__ == '__main__':
-    path = "../data_ifc_models/Testmodell.ifc"
-    query = "Welche IFC Version hat das Modell?"
-    print("Mit welcher CAD Anwendung wurde das Modell erstellt?")
-    print(startLanguageModel(path, "Mit welcher CAD Anwendung wurde das Modell erstellt?"))
+    path = "../data_ifc_models/Beispielhaus.ifc"
+    query = "Welche Fläche haben die Fenster?"
+    chain = startLanguageModel(path)
+    print(f"{query}:")
+    print(generateAnswer(path, query, chain))
