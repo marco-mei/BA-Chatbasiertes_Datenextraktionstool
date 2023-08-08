@@ -1,31 +1,74 @@
 import ifcopenshell
 import ifcopenshell.geom
 import ifcopenshell.util
-import ifcopenshell.util.element
-
+import ifcopenshell.util.element as element
 
 ifc_entities = {
+    "IfcProject": "Projekt",
+    "IfcSite": "Grundstück",
+    "IfcBuilding": "Gebäude",
+    "IfcBuildingStorey": "Geschoss",
+    "IfcSpace": "Raum",
     "IfcSlab": "Decke",
     "IfcOpeningElement": "Öffnung",
     "IfcDoor": "Tür",
     "IfcStair": "Treppe",
-    "IfcSanitaryTerminal": "Sanitärbauteil",
+    "IfcSanitaryTerminal": "Sanitärobjekt",
     "IfcBuildingElementProxy": "Allgemeines Bauteil",
     "IfcFurniture": "Möbel",
-    "IfcBuildingElementPart": "Allgemeines Bauteil",
     "IfcWindow": "Fenster",
     "IfcRailing": "Geländer",
     "IfcWall": "Wand",
     "IfcLightFixture": "Licht",
-    "IfcCurtainWall": "Vorhangfassade"
+    "IfcCurtainWall": "Vorhangfassade",
+    "IfcBeam": "Träger",
+    "IfcColumn": "Stütze",
+    "IfcMember": "Stabelement",
 }
 
 
-def get_keyvalues(ifc_element):
-    psets = ifcopenshell.util.element.get_psets(ifc_element).values()
-    for pset in psets:
-        keyvalues = ifcopenshell.util.element.get_pset_values(ifc_element, pset)
-    return keyvalues
+def get_keyvalues(component):
+    all_psets_values = {}
+
+    all_psets_values['GUID'] = component.GlobalId
+    all_psets_values['IfcType'] = component.is_a()
+
+    if component.is_a().replace('StandardCase', '') in ifc_entities:
+        component_type = ifc_entities[component.is_a().replace('StandardCase', '')]
+        all_psets_values['Bauteiltyp'] = component_type
+
+    else:
+        all_psets_values['Bauteiltyp'] = ''
+
+    all_psets_values['Name'] = component.Name
+    all_psets_values['Geschoss'] = ''
+    level = element.get_container(component)
+    if level:
+        all_psets_values['Geschoss'] = level.Name
+
+    # get all psets
+    psets_content = list(element.get_psets(component, psets_only=True).values())
+
+    if psets_content:
+        for pset in psets_content:
+            all_psets_values.update(pset)
+
+    # get all qtos
+    qto_content = list(element.get_psets(component, qtos_only=True).values())
+
+    if qto_content:
+        for qto in qto_content:
+            all_psets_values.update(qto)
+
+    del_items = []
+    for key in all_psets_values:
+        value = all_psets_values[key]
+        if type(value) == dict:
+            del_items.append(key)
+    for item in del_items:
+        del all_psets_values[item]
+
+    return all_psets_values
 
 
 def get_ifc_elements(ifc_model):
@@ -69,10 +112,9 @@ def get_all_attributes(ifc_file):
                 keyvalues = ifcopenshell.util.element.get_psets(element)
 
 
-def create_attribute_file(ifc_file):
-    print("test")
-
-
 if __name__ == "__main__":
-    print(get_number_of_all_entities("data_ifc_models/AC20-FZK-Haus.ifc"))
-    print(test_function("data_ifc_models/Beispielbüro.ifc"))
+    path = "data_ifc_models/Beispielhaus.ifc"
+    ifc = ifcopenshell.open(path)
+    components = ifc.by_type("IfcProduct")
+    for component in components:
+        print(get_keyvalues(component))

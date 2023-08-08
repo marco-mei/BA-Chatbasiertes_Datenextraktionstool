@@ -1,0 +1,83 @@
+Area,Barrierefrei,Bauteiltyp,Betongüte,Brandwand,Depth,Expositionsklasse,Feuerwiderstandsklasse 4102-2,FinishCeilingHeight,FinishFloorHeight,FireRating,FloorCoveringThickness,GUID,Geschoss,GrossArea,GrossCeilingArea,GrossFloorArea,GrossFootprintArea,GrossHeight,GrossPerimeter,GrossSideArea,GrossVolume,GrossWallArea,HandicapAccessible,Height,IfcType,IsExternal,Length,LoadBearing,Material,Name,NetArea,NetCeilingArea,NetFloorArea,NetFootprintArea,NetHeight,NetPerimeter,NetSideArea,NetVolume,NetWallArea,Perimeter,Status,Volume,Width,id
+,,Projekt,,,,,,,,,,344O7vICcwH8qAEnwJDjSU,,,,,,,,,,,,,IfcProject,,,,,Projekt,,,,,,,,,,,,,,
+,,Grundstück,,,,,,,,,,20FpTZCqJy2vhVJYtjuIce,,0.0,,,,,0.0,,,,,,IfcSite,,,,,Gelände,,,,,,,,,,,,,,114
+,,Gebäude,,,,,,,,,,00tMo7QcxqWdIGvc4sMN2A,,,,159.410516695,,,,,,,,,IfcBuilding,,,,,Gebäude,,,,,,,,,,,,,,141
+,,Geschoss,,,,,,,,,,2wD77FGiRpHvLJ$n_rSCsd,,,,0.0,,3.0,,,,,,,IfcBuildingStorey,,,,,UG,,,,,3.0,,,,,,,,,165
+,,Wand,C35/45,False,,XM2,,,,,,39Pwj5r313996q4XG0Ka33,UG,,,,3.615,,,5.784,2.892,,,0.8,IfcWall,True,7.23,True,Stahlbeton,Fundament,,,,3.615,,,5.784,2.892,,,['EXISTING'],,0.5,334
+,,Wand,C35/45,False,,XM2,,,,,,175F_nz6H8rwNhx2l_si7R,UG,,,,6.86439558824,,,10.9830329412,5.4915164706,,,0.8,IfcWall,True,14.2287911765,True,Stahlbeton,Fundament,,,,6.86439558824,,,10.9830329412,5.4915164706,,,['EXISTING'],,0.5,454
+,,Wand,C35/45,False,,XM2,,,,,,39UKIris12CQ9TQYqlPviU,UG,,,,7.11439558824,,,11.3830329412,5.6915164706,,,0.8,IfcWall,True,14.2287911765,True,Stahlbeton,Fundament,,,,7.11439558824,,,11.3830329412,5.6915164706,,,['EXISTING'],,0.5,568
+,,Wand,C35/45,False,,XM2,,,,,,0rgrSLo1j0Z9fDoUT_CyNC,UG,,,,3.365,,,5.384,2.692,,,0.8,IfcWall,True,6.73,True,Stahlbeton,Fundament,,,,3.365,,,5.384,2.692,,,['EXISTING'],,0.5,682
+,,Wand,C35/45,False,,XM2,,,,,,12Vt3V80D5yww6fRqQvKT3,UG,,,,3.865,,,6.184,3.092,,,0.8,IfcWall,True,7.23,True,Stahlbeton,Fundament,,,,3.865,,,6.184,3.092,,,['EXISTING'],,0.5,796
+,,Wand,C35/45,False,,XM2,,,,,,2Zz$61LnT2IvWZL8xHZS1Z,UG,,,,3.365,,,5.384,2.692,,,0.8,IfcWall,True,6.73,True,Stahlbeton,Fundament,,,,3.365,,,5.384,2.692,,,['EXISTING'],,0.5,910
+,,Geschoss,,,,,,,,,,2Wk49hkHPC2hvWchm5NASJ,,,,159.410516695,,3.0,,,,,,,IfcBuildingStorey,,,,,EG,,,,,3.0,,,,,,,,,930
+,,Wand,C30/37,True,,XC3,F 60,,,F 60,,3Qy6atOv51AwT_tek7lVoT,EG,,,,5.37600877942,,,44.1863735295,16.1280263383,,,3.0,IfcWall,True,14.5462911765,True,Stahlbeton,Wand-001,,,,5.37600877942,,,28.9562735295,10.5690398383,,,['EXISTING'],,0.365,1629
+2.4,,Öffnung,,,0.365,,,,,,,3GWua190iac8V64JGSlWb8,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-011,,,,,,,,,,,,0.0935572,1.2,1226
+2.4,,Öffnung,,,0.365,,,,,,,2iQiy0jcc9M$B0pFfb5qMf,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-012,,,,,,,,,,,,0.0935572,1.2,1285
+2.4,,Öffnung,,,0.365,,,,,,,3QekjFl4FW9_y9WXv382re,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-013,,,,,,,,,,,,0.0935572,1.2,1344
+2.4,,Öffnung,,,0.365,,,,,,,3ekX6YTE6qTxYpXaqLJLlF,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-014,,,,,,,,,,,,0.0935572,1.2,1403
+1.8,,Öffnung,,,0.365,,,,,,,3BYhk1tJJ9TYLvlF7CB7m0,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-018,,,,,,,,,,,,0.0672439,0.9,1462
+1.8,,Öffnung,,,0.365,,,,,,,1pQRuZ$0FjBHxqetH1G_$W,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-019,,,,,,,,,,,,0.0672439,0.9,1521
+2.0301,,Öffnung,,,0.365,,,,,,,229mrBUdERPuR0G0DaUJxG,,,,,,,,,,,,2.01,IfcOpeningElement,,,,,Tür-001,,,,,,,,,,,,0.0715754,1.01,1580
+2.4,,Fenster,,,,,F 60,,,F 60,,16jUHz2UTFUf6s4B0H$oHl,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-011,,,,,,,,,,6.4,['EXISTING'],,1.2,2522
+2.4,,Fenster,,,,,F 60,,,F 60,,1EfRytDj5ArReELIVDbbZc,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-012,,,,,,,,,,6.4,['EXISTING'],,1.2,2584
+2.4,,Fenster,,,,,F 60,,,F 60,,0lIPTUVIXDlwdILgNBPBEm,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-013,,,,,,,,,,6.4,['EXISTING'],,1.2,2642
+2.4,,Fenster,,,,,F 60,,,F 60,,3_I0ogiFHEFwirhiESI__v,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-014,,,,,,,,,,6.4,['EXISTING'],,1.2,3517
+1.8,,Fenster,,,,,F 60,,,F 60,,2uR1Gdv8v0UeWNr7VCeaei,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-018,,,,,,,,,,5.8,['EXISTING'],,0.9,4079
+1.8,,Fenster,,,,,F 60,,,F 60,,3AqcFsKY53sASwNBWbLC5T,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-019,,,,,,,,,,5.8,['EXISTING'],,0.9,4645
+2.0301,True,Tür,,,,,T 60,,,T 60,,0csZBfUD95axzuieSqYiHA,EG,,,,,,,,,,True,2.01,IfcDoor,True,,,Kunststoff,Tür-001,,,,,,,,,,6.04,['EXISTING'],,1.01,5240
+,,Wand,C30/37,True,,XC3,F 60,,,F 60,,19MiasVBz4MxQA90h5hlbo,EG,,,,2.555,,,21.0,7.665,,,3.0,IfcWall,True,7.1825,True,Stahlbeton,Wand-002,,,,2.555,,,13.8,5.037,,,['EXISTING'],,0.365,5622
+2.4,,Öffnung,,,0.365,,,,,,,0Zwo7Su3iwij83nGMJ0WLD,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-015,,,,,,,,,,,,0.0935572,1.2,5455
+2.4,,Öffnung,,,0.365,,,,,,,1$jLVnVNSBUFOPsQYDNzaa,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-016,,,,,,,,,,,,0.0935572,1.2,5514
+2.4,,Öffnung,,,0.365,,,,,,,07WFOK7NNRdPTFFZMNjgfR,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-017,,,,,,,,,,,,0.0935572,1.2,5573
+2.4,,Fenster,,,,,F 60,,,F 60,,14EKv3QDr8ZxTTtQ86i$_A,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-015,,,,,,,,,,6.4,['EXISTING'],,1.2,5680
+2.4,,Fenster,,,,,F 60,,,F 60,,06nLGa_I97yB0v51JlFshT,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-016,,,,,,,,,,6.4,['EXISTING'],,1.2,5738
+2.4,,Fenster,,,,,F 60,,,F 60,,0wL978aJ999PEfkxnCDk7N,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-017,,,,,,,,,,6.4,['EXISTING'],,1.2,5796
+,,Wand,C30/37,True,,XC3,F 60,,,F 60,,2Q8S08G3T0Sh4TT3IGw2O$,EG,,,,5.37600877942,,,44.1863735295,16.1280263383,,,3.0,IfcWall,True,14.5462911765,True,Stahlbeton,Wand-003,,,,5.37600877942,,,29.7863735295,10.8720263383,,,['EXISTING'],,0.365,6404
+2.4,,Öffnung,,,0.365,,,,,,,3GRAfc_WOfpy1Zmqof6Lq6,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-005,,,,,,,,,,,,0.0935572,1.2,6060
+2.4,,Öffnung,,,0.365,,,,,,,0IyJsIIBtRzHR4p3Z1Qbrd,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-006,,,,,,,,,,,,0.0935572,1.2,6119
+2.4,,Öffnung,,,0.365,,,,,,,1jynp0qBMaEKVWhmdD7quy,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-005,,,,,,,,,,,,0.0935572,1.2,6178
+2.4,,Öffnung,,,0.365,,,,,,,2XmhtS6vuaBgKx_E1iJ7yd,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-006,,,,,,,,,,,,0.0935572,1.2,6237
+2.4,,Öffnung,,,0.365,,,,,,,2ZLdTdb1EvbtHvxuZSzOj9,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-007,,,,,,,,,,,,0.0935572,1.2,6296
+2.4,,Öffnung,,,0.365,,,,,,,2CWL3Mz14NezRY1AMF75gX,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-008,,,,,,,,,,,,0.0935572,1.2,6355
+2.4,,Fenster,,,,,F 60,,,F 60,,3f9Kzqp4z5yBaSyQwIDRzE,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-005,,,,,,,,,,6.4,['EXISTING'],,1.2,6462
+2.4,,Fenster,,,,,F 60,,,F 60,,3r7h3wyErA4fQIPPzMwQ9A,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-006,,,,,,,,,,6.4,['EXISTING'],,1.2,6520
+2.4,,Fenster,,,,,F 60,,,F 60,,0Hm_DKyJz5SvR0SbGQBpG6,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-005,,,,,,,,,,6.4,['EXISTING'],,1.2,6578
+2.4,,Fenster,,,,,F 60,,,F 60,,30BVOV0tf1QgZFLy1$Dsfk,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-006,,,,,,,,,,6.4,['EXISTING'],,1.2,6636
+2.4,,Fenster,,,,,F 60,,,F 60,,3jjos76en6eRAnn2rkrdKc,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-007,,,,,,,,,,6.4,['EXISTING'],,1.2,6694
+2.4,,Fenster,,,,,F 60,,,F 60,,2paBspVGf0QBcsy9eQ9zO7,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-008,,,,,,,,,,6.4,['EXISTING'],,1.2,6752
+,,Wand,C30/37,True,,XC3,F 60,,,F 60,,3sf1yXqNH21gOZeYxSPNP3,EG,,,,2.555,,,21.0,7.665,,,3.0,IfcWall,True,7.1825,True,Stahlbeton,Wand-004,,,,2.555,,,13.8,5.037,,,['EXISTING'],,0.365,7130
+2.4,,Öffnung,,,0.365,,,,,,,04rO75$Oc38SlgtgjaS5Wu,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-008,,,,,,,,,,,,0.0935572,1.2,6963
+2.4,,Öffnung,,,0.365,,,,,,,3p_eSg9WqKPx$ZDlVF0x6H,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-009,,,,,,,,,,,,0.0935572,1.2,7022
+2.4,,Öffnung,,,0.365,,,,,,,13gcyru_RERLV4lpRHr_R3,,,,,,,,,,,,2.0,IfcOpeningElement,,,,,Fenster-010,,,,,,,,,,,,0.0935572,1.2,7081
+2.4,,Fenster,,,,,F 60,,,F 60,,19zfzSYIz4AB$qvHLkh$2i,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-008,,,,,,,,,,6.4,['EXISTING'],,1.2,7188
+2.4,,Fenster,,,,,F 60,,,F 60,,3HGiIZDRj9Fff5njeqPkss,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-009,,,,,,,,,,6.4,['EXISTING'],,1.2,7246
+2.4,,Fenster,,,,,F 60,,,F 60,,0QpCYFfOf1lwMyljrKS$mT,EG,,,,,,,,,,,2.0,IfcWindow,True,,,Kunststoff,Fenster-010,,,,,,,,,,6.4,['EXISTING'],,1.2,7304
+,,Raum,,,,,,2.7,0.1,,0.1,2Jzk1pq7zBMx8yZkEC_z6N,,,36.89,36.89,,,24.54,,99.603,66.258,,2.7,IfcSpace,,,,,R-007,,36.89,36.89,,,24.54,,99.603,48.7125,,,,,7416
+,,Decke,C30/37,,,XC4,F 90,,,F 90,,0aAN1QYJ98JRDz0JlO6XE3,EG,113.853555794,,,,,,,11.3853555794,,,,IfcSlab,True,,True,Stahlbeton,RD-001,113.853555794,,,,,,,11.3853555794,,44.917582353,['EXISTING'],,0.1,7543
+,,Wand,,False,,,F 30,,,F 30,,0RJx0iBnjAxuG7ZxklEhkm,EG,,,,0.594749894241,,,11.895,1.78425,,,3.0,IfcWall,True,3.965,True,Gipskarton,Wand-011,,,,0.594749894241,,,11.895,1.78425,,,['EXISTING'],,0.15,7893
+,,Wand,,False,,,F 30,,,F 30,,1DP7qE6L1BT8XVOxH4jWZX,EG,,,,0.594387255065,,,11.8877470589,1.78316205884,,,3.0,IfcWall,True,3.96258235298,True,Gipskarton,Wand-012,,,,0.594387255065,,,11.8877470589,1.78316205884,,,['EXISTING'],,0.15,8227
+,,Decke,,,,,,,,,,3zuDfoFjzF$xj0mzRo4ZYi,EG,11.8052942869,,,,,,,1.18052942869,,,,IfcSlab,False,,False,Fliesen,RD-008,11.7019979619,,,,,,,1.17019979619,,13.9026471434,['EXISTING'],,0.1,8329
+,,Raum,,,,,,2.7,0.1,,0.1,2j6XmeLhb3iPiZWCud2scl,,,27.3919008825,27.3919008825,,,29.9927470589,,73.9581323827,62.4854170591,,2.7,IfcSpace,,,,,R-005,,27.3919008825,27.3919008825,,,29.9927470589,,73.9581323827,45.6854170591,,,,,8456
+,,Decke,,,,,,,,,,1vsRF__B513Q23b6nQ88$7,EG,15.5899929014,,,,,,,1.55899929014,,,,IfcSlab,False,,False,Holz,RD-008,15.4511828205,,,,,,,1.54511828205,,15.7949355843,['EXISTING'],,0.1,8558
+,,Decke,,,,,,,,,,1CWL52bi1DwQzT2ltBs8pR,EG,15.5947057131,,,,,,,1.55947057131,,,,IfcSlab,False,,False,Fliesen,RD-008,15.4582520381,,,,,,,1.54582520381,,15.7973528566,['EXISTING'],,0.1,8664
+,,Raum,,,,,,2.7,0.1,,0.1,0OEGXQz4bBJwgHa8UPn2pF,,,11.8052942869,11.8052942869,,,13.9026471434,,31.8742945746,29.5685736437,,2.7,IfcSpace,,,,,R-001,,11.8052942869,11.8052942869,,,13.9026471434,,31.8742945746,22.3685736437,,,,,8767
+,,Wand,C30/37,True,,XC3,F 60,,,F 60,,3$_YxCh7H3tBCFYGJah$yv,R-001,,,,2.8,,,21.0,8.4,,,3.0,IfcWall,True,7.0,True,Stahlbeton,Wand-008,,,,2.8,,,17.4423,6.97692,,,['EXISTING'],,0.4,9096
+1.77885,,Öffnung,,,0.4,,,,,,,3uATvvOs0QYbOd81h3Yd6b,,,,,,,,,,,,2.01,IfcOpeningElement,,,,,Tür-002,,,,,,,,,,,,0.0781365,0.885,8988
+1.77885,,Öffnung,,,0.4,,,,,,,2EiZXMOH6bL3ZQLJe5b_i$,,,,,,,,,,,,2.01,IfcOpeningElement,,,,,Tür-003,,,,,,,,,,,,0.0781365,0.885,9047
+1.77885,False,Tür,,,,,T 60,,,T 60,,3goUrQ3nP0URTlV_hk08Nn,R-001,,,,,,,,,,False,2.01,IfcDoor,True,,,Holz,Tür-002,,,,,,,,,,5.79,['EXISTING'],,0.885,9339
+,,Raum,,,,,,2.7,0.1,,0.1,1QbB5KOnr2Ae2PjYYUbUh8,,,15.5947057131,15.5947057131,,,15.7973528566,,42.1057054254,32.1264263563,,2.7,IfcSpace,,,,,R-002,,15.5947057131,15.5947057131,,,15.7973528566,,42.1057054254,22.5264263563,,,,,9442
+1.77885,False,Tür,,,,,T 60,,,T 60,,0_PWdgL3L7tw9nWvihjL0G,R-001,,,,,,,,,,False,2.01,IfcDoor,True,,,Holz,Tür-003,,,,,,,,,,5.79,['EXISTING'],,0.885,9504
+,,Decke,,,,,,,,,,3Q8w$yfF14jvxnTtNwkzPk,EG,38.81355,,,,,,,3.881355,,,,IfcSlab,False,,False,Holz,RD-009,36.89,,,,,,,3.689,,25.27,['EXISTING'],,0.1,9598
+,,Raum,,,,,,2.7,0.1,,0.1,0ZleqqBVrDdvYIJOBS0bkV,,,27.3919008825,27.3919008825,,,29.9927470589,,73.9581323827,62.4854170591,,2.7,IfcSpace,,,,,R-006,,27.3919008825,27.3919008825,,,29.9927470589,,73.9581323827,45.6854170591,,,,,9721
+1.77885,False,Tür,,,,,T 60,,,T 60,,3vW7cFsWPEseg8XZ8Mcayw,EG,,,,,,,,,,False,2.01,IfcDoor,True,,,Holz,Tür-005,,,,,,,,,,5.79,['EXISTING'],,0.885,9956
+,,Wand,C30/37,True,,XC3,F 60,,,F 60,,2FzJg8DtD3fPpQ587BBmwe,R-006,,,,2.8,,,21.0,8.4,,,3.0,IfcWall,True,7.0,True,Stahlbeton,Wand-009,,,,2.8,,,17.4423,6.97692,,,['EXISTING'],,0.4,10289
+1.77885,,Öffnung,,,0.4,,,,,,,2KT32$3bSSnJmYkGUNnHIN,,,,,,,,,,,,2.01,IfcOpeningElement,,,,,Tür-004,,,,,,,,,,,,0.0781365,0.885,10181
+1.77885,,Öffnung,,,0.4,,,,,,,0CghoVT0kT6v3c6B_Ibslg,,,,,,,,,,,,2.01,IfcOpeningElement,,,,,Tür-005,,,,,,,,,,,,0.0781365,0.885,10240
+1.77885,False,Tür,,,,,T 60,,,T 60,,3EYeZ6Ocv63ukAmcVDxPKO,R-006,,,,,,,,,,False,2.01,IfcDoor,True,,,Holz,Tür-004,,,,,,,,,,5.79,['EXISTING'],,0.885,10351
+,,Decke,,,,,,,,,,0rbQ6x8rL7lBTYWA7MKjFr,EG,11.8052942869,,,,,,,1.18052942869,,,,IfcSlab,False,,False,Holz,RD-008,11.6984303326,,,,,,,1.16984303326,,13.9026471434,['EXISTING'],,0.1,10445
+,,Geschoss,,,,,,,,,,2u8QLkhhx4HBrLqA_wnknJ,,,,0.0,,3.0,,,,,,,IfcBuildingStorey,,,,,OG,,,,,3.0,,,,,,,,,10465
+,,Decke,C30/37,,,XC4,F 90,,,F 90,,1EVOiwKer1jhMrlc2YflYP,OG,113.853555794,,,,,,,22.7707111589,,,,IfcSlab,True,,True,Stahlbeton,RD-003,113.853555794,,,,,,,22.7707111589,,44.917582353,['EXISTING'],,0.2,10585
+,,Wand,C16/20,False,,XC2,,,,,,0iTz22FMT2nhXHpfJAnlMw,OG,,,,2.20931867647,,,8.83727470589,1.32559120588,,,0.6,IfcWall,True,14.5787911765,,Stahlbeton,Wand-017,,,,2.20931867647,,,8.83727470589,1.32559120588,,,['EXISTING'],,0.15,10709
+,,Wand,C16/20,False,,XC2,,,,,,3BNKro2wD9Z9tqKw2kZzes,OG,,,,1.137,,,4.548,0.6822,,,0.6,IfcWall,True,7.58,,Stahlbeton,Wand-017,,,,1.137,,,4.548,0.6822,,,['EXISTING'],,0.15,10825
+,,Wand,C16/20,False,,XC2,,,,,,2DBjazrmDD28QxSj4931op,OG,,,,2.18681867647,,,8.74727470589,1.31209120588,,,0.6,IfcWall,True,14.5787911765,,Stahlbeton,Wand-017,,,,2.18681867647,,,8.74727470589,1.31209120588,,,['EXISTING'],,0.15,10937
+,,Wand,C16/20,False,,XC2,,,,,,1cjH1K_Zj2fvtStTJDgY1s,OG,,,,1.1145,,,4.458,0.6687,,,0.6,IfcWall,True,7.58,,Stahlbeton,Wand-017,,,,1.1145,,,4.458,0.6687,,,['EXISTING'],,0.15,11049

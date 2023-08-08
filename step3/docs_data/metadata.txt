@@ -1,0 +1,6 @@
+Metadaten zum IFC-Modell:
+
+Model name: Beispielhaus
+Date: 2023-08-06
+Application: Graphisoft Archicad 2600 GER FULL Windows version (IFC add-on version: 3001 GER FULL)
+IFC schema: IFC4

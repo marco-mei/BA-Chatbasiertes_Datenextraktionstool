@@ -1,3 +1,0 @@
-Bauteiltyp,GUID,Geschoss,IfcType,IsExternal,LoadBearing,Material,Name,NumberOfRiser,NumberOfTreads,RequiredHeadroom,RiserHeight,Status,WalkingLineOffset,id
-Treppe,3Yk8$TG5j8bhKFAnaNtZOX,EG,IfcStair,False,False,,Treppe-001,20.0,21.0,2.2,0.1995,['EXISTING'],6.236,99288
-Treppe,3pJu7PV7TBzwUNG63iBDQF,EG,IfcStair,False,False,,Treppe-001,20.0,21.0,2.2,0.1995,['EXISTING'],6.236,102263

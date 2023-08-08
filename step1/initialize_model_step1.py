@@ -1,5 +1,4 @@
 import os
-import tiktoken
 from langchain import PromptTemplate
 from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
@@ -9,15 +8,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import Chroma
 
 
-def num_tokens_from_string(path) -> int:
-    """Returns the number of tokens in a text string."""
-    string: str = open(path, "r").read()
-    encoding = tiktoken.get_encoding("cl100k_base")
-    num_tokens = len(encoding.encode(string))
-    return num_tokens
-
-
-def startLanguageModel(path):
+def get_chain(path):
     """Takes a path to an ifc file and returns a language model that can answer questions about the ifc file."""
     os.environ["OPENAI_API_KEY"] = "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"  # personal key
 
@@ -75,6 +66,6 @@ def generateAnswer(path, query, chain):
 if __name__ == '__main__':
     path = "../data_ifc_models/Beispielhaus.ifc"
     query = "Welche Fläche haben die Fenster?"
-    chain = startLanguageModel(path)
+    chain = get_chain(path)
     print(f"{query}:")
     print(generateAnswer(path, query, chain))

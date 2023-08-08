@@ -22,7 +22,7 @@ def create_multiple_csv(path):
         column_names.sort()
 
         # save column names to csv file
-        with open(f".././data_multiple_csv/{model_entity}_Attributes.csv", "w", encoding="utf-8") as f:
+        with open(f"../step2/data_multiple_csv/{model_entity}_Attributes.csv", "w", encoding="utf-8") as f:
             f.write(",".join(column_names))
             f.write("\n")  # Write newline after column names
 
@@ -50,7 +50,7 @@ def create_single_csv(path):
     column_names.sort()
 
     # save column names to csv file
-    with open(f".././data_single_csv/Model_Attributes.csv", "w", encoding="utf-8") as f:
+    with open(f"../step2/data_single_csv/Model_Attributes.csv", "w", encoding="utf-8") as f:
         f.write(",".join(column_names))
         f.write("\n")  # Write newline after column names
 
@@ -63,6 +63,11 @@ def create_single_csv(path):
                     row_values.remove(row_value)
             f.write(",".join(row_values))
             f.write("\n")
+
+    # make NaN values empty
+    with open(f"../step2/data_single_csv/Model_Attributes.csv", "r", encoding="utf-8") as f:
+        data = f.read()
+        data = data.replace("None", "")
 
     print(f"\nSingle CSV with {len(column_names)} columns has been created")
 
