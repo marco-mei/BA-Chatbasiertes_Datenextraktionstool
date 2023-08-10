@@ -1,0 +1,11 @@
+Bauteilliste Projekt
+
+Diese Liste enthält alle Bauteile mit dem Bauteiltyp: Projekt
+Jeder Absatz beschreibt dabei ein Bauteil.
+Im modell gibt es 1 Bauteile mit dem Bauteiltyp Projekt.
+
+Bauteiltyp: Projekt
+Name: Projekt
+GUID: 344O7vICcwH8qAEnwJDjSU
+IfcType: IfcProject
+

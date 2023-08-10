@@ -1,5 +1,7 @@
-ifcopenshell
-langchain
+ifcopenshell~=0.7.0.230418
+langchain~=0.0.142
 pandas
 chromadb
 tiktoken
+unstructured
+openai~=0.27.8

@@ -1,0 +1,392 @@
+Bauteilliste Wand
+
+Diese Liste enthält alle Bauteile mit dem Bauteiltyp: Wand
+Jeder Absatz beschreibt dabei ein Bauteil.
+Im modell gibt es 18 Bauteile mit dem Bauteiltyp Wand.
+
+Bauteiltyp: Wand
+Name: Fundament
+GUID: 39Pwj5r313996q4XG0Ka33
+IfcType: IfcWall
+Geschoss: UG
+Length: 7.23 m
+Height: 0.8 m
+Width: 0.5 m
+GrossFootprintArea: 3.62 m²
+NetFootprintArea: 3.62 m²
+GrossSideArea: 5.78 m²
+NetSideArea: 5.78 m²
+GrossVolume: 2.89 m³
+NetVolume: 2.89 m³
+Brandwand: False
+Expositionsklasse: XM2
+Betongüte: C35/45
+Material: Stahlbeton
+IsExternal: True
+LoadBearing: True
+
+Bauteiltyp: Wand
+Name: Fundament
+GUID: 175F_nz6H8rwNhx2l_si7R
+IfcType: IfcWall
+Geschoss: UG
+Length: 14.23 m
+Height: 0.8 m
+Width: 0.5 m
+GrossFootprintArea: 6.86 m²
+NetFootprintArea: 6.86 m²
+GrossSideArea: 10.98 m²
+NetSideArea: 10.98 m²
+GrossVolume: 5.49 m³
+NetVolume: 5.49 m³
+Brandwand: False
+Expositionsklasse: XM2
+Betongüte: C35/45
+Material: Stahlbeton
+IsExternal: True
+LoadBearing: True
+
+Bauteiltyp: Wand
+Name: Fundament
+GUID: 39UKIris12CQ9TQYqlPviU
+IfcType: IfcWall
+Geschoss: UG
+Length: 14.23 m
+Height: 0.8 m
+Width: 0.5 m
+GrossFootprintArea: 7.11 m²
+NetFootprintArea: 7.11 m²
+GrossSideArea: 11.38 m²
+NetSideArea: 11.38 m²
+GrossVolume: 5.69 m³
+NetVolume: 5.69 m³
+Brandwand: False
+Expositionsklasse: XM2
+Betongüte: C35/45
+Material: Stahlbeton
+IsExternal: True
+LoadBearing: True
+
+Bauteiltyp: Wand
+Name: Fundament
+GUID: 0rgrSLo1j0Z9fDoUT_CyNC
+IfcType: IfcWall
+Geschoss: UG
+Length: 6.73 m
+Height: 0.8 m
+Width: 0.5 m
+GrossFootprintArea: 3.37 m²
+NetFootprintArea: 3.37 m²
+GrossSideArea: 5.38 m²
+NetSideArea: 5.38 m²
+GrossVolume: 2.69 m³
+NetVolume: 2.69 m³
+Brandwand: False
+Expositionsklasse: XM2
+Betongüte: C35/45
+Material: Stahlbeton
+IsExternal: True
+LoadBearing: True
+
+Bauteiltyp: Wand
+Name: Fundament
+GUID: 12Vt3V80D5yww6fRqQvKT3
+IfcType: IfcWall
+Geschoss: UG
+Length: 7.23 m
+Height: 0.8 m
+Width: 0.5 m
+GrossFootprintArea: 3.87 m²
+NetFootprintArea: 3.87 m²
+GrossSideArea: 6.18 m²
+NetSideArea: 6.18 m²
+GrossVolume: 3.09 m³
+NetVolume: 3.09 m³
+Brandwand: False
+Expositionsklasse: XM2
+Betongüte: C35/45
+Material: Stahlbeton
+IsExternal: True
+LoadBearing: True
+
+Bauteiltyp: Wand
+Name: Fundament
+GUID: 2Zz$61LnT2IvWZL8xHZS1Z
+IfcType: IfcWall
+Geschoss: UG
+Length: 6.73 m
+Height: 0.8 m
+Width: 0.5 m
+GrossFootprintArea: 3.37 m²
+NetFootprintArea: 3.37 m²
+GrossSideArea: 5.38 m²
+NetSideArea: 5.38 m²
+GrossVolume: 2.69 m³
+NetVolume: 2.69 m³
+Brandwand: False
+Expositionsklasse: XM2
+Betongüte: C35/45
+Material: Stahlbeton
+IsExternal: True
+LoadBearing: True
+
+Bauteiltyp: Wand
+Name: Wand-001
+GUID: 3Qy6atOv51AwT_tek7lVoT
+IfcType: IfcWall
+Geschoss: EG
+Length: 14.55 m
+Height: 3.0 m
+Width: 0.36 m
+GrossFootprintArea: 5.38 m²
+NetFootprintArea: 5.38 m²
+GrossSideArea: 44.19 m²
+NetSideArea: 28.96 m²
+GrossVolume: 16.13 m³
+NetVolume: 10.57 m³
+FireRating: F 60
+IsExternal: True
+LoadBearing: True
+Brandwand: True
+Expositionsklasse: XC3
+Betongüte: C30/37
+Material: Stahlbeton
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Wand
+Name: Wand-002
+GUID: 19MiasVBz4MxQA90h5hlbo
+IfcType: IfcWall
+Geschoss: EG
+Length: 7.18 m
+Height: 3.0 m
+Width: 0.36 m
+GrossFootprintArea: 2.56 m²
+NetFootprintArea: 2.56 m²
+GrossSideArea: 21.0 m²
+NetSideArea: 13.8 m²
+GrossVolume: 7.67 m³
+NetVolume: 5.04 m³
+FireRating: F 60
+IsExternal: True
+LoadBearing: True
+Brandwand: True
+Expositionsklasse: XC3
+Betongüte: C30/37
+Material: Stahlbeton
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Wand
+Name: Wand-003
+GUID: 2Q8S08G3T0Sh4TT3IGw2O$
+IfcType: IfcWall
+Geschoss: EG
+Length: 14.55 m
+Height: 3.0 m
+Width: 0.36 m
+GrossFootprintArea: 5.38 m²
+NetFootprintArea: 5.38 m²
+GrossSideArea: 44.19 m²
+NetSideArea: 29.79 m²
+GrossVolume: 16.13 m³
+NetVolume: 10.87 m³
+FireRating: F 60
+IsExternal: True
+LoadBearing: True
+Brandwand: True
+Expositionsklasse: XC3
+Betongüte: C30/37
+Material: Stahlbeton
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Wand
+Name: Wand-004
+GUID: 3sf1yXqNH21gOZeYxSPNP3
+IfcType: IfcWall
+Geschoss: EG
+Length: 7.18 m
+Height: 3.0 m
+Width: 0.36 m
+GrossFootprintArea: 2.56 m²
+NetFootprintArea: 2.56 m²
+GrossSideArea: 21.0 m²
+NetSideArea: 13.8 m²
+GrossVolume: 7.67 m³
+NetVolume: 5.04 m³
+FireRating: F 60
+IsExternal: True
+LoadBearing: True
+Brandwand: True
+Expositionsklasse: XC3
+Betongüte: C30/37
+Material: Stahlbeton
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Wand
+Name: Wand-011
+GUID: 0RJx0iBnjAxuG7ZxklEhkm
+IfcType: IfcWall
+Geschoss: EG
+Length: 3.96 m
+Height: 3.0 m
+Width: 0.15 m
+GrossFootprintArea: 0.59 m²
+NetFootprintArea: 0.59 m²
+GrossSideArea: 11.89 m²
+NetSideArea: 11.89 m²
+GrossVolume: 1.78 m³
+NetVolume: 1.78 m³
+FireRating: F 30
+IsExternal: True
+LoadBearing: True
+Brandwand: False
+Material: Gipskarton
+Feuerwiderstandsklasse 4102-2: F 30
+
+Bauteiltyp: Wand
+Name: Wand-012
+GUID: 1DP7qE6L1BT8XVOxH4jWZX
+IfcType: IfcWall
+Geschoss: EG
+Length: 3.96 m
+Height: 3.0 m
+Width: 0.15 m
+GrossFootprintArea: 0.59 m²
+NetFootprintArea: 0.59 m²
+GrossSideArea: 11.89 m²
+NetSideArea: 11.89 m²
+GrossVolume: 1.78 m³
+NetVolume: 1.78 m³
+FireRating: F 30
+IsExternal: True
+LoadBearing: True
+Brandwand: False
+Material: Gipskarton
+Feuerwiderstandsklasse 4102-2: F 30
+
+Bauteiltyp: Wand
+Name: Wand-008
+GUID: 3$_YxCh7H3tBCFYGJah$yv
+IfcType: IfcWall
+Geschoss: R-001
+Length: 7.0 m
+Height: 3.0 m
+Width: 0.4 m
+GrossFootprintArea: 2.8 m²
+NetFootprintArea: 2.8 m²
+GrossSideArea: 21.0 m²
+NetSideArea: 17.44 m²
+GrossVolume: 8.4 m³
+NetVolume: 6.98 m³
+FireRating: F 60
+IsExternal: True
+LoadBearing: True
+Brandwand: True
+Expositionsklasse: XC3
+Betongüte: C30/37
+Material: Stahlbeton
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Wand
+Name: Wand-009
+GUID: 2FzJg8DtD3fPpQ587BBmwe
+IfcType: IfcWall
+Geschoss: R-006
+Length: 7.0 m
+Height: 3.0 m
+Width: 0.4 m
+GrossFootprintArea: 2.8 m²
+NetFootprintArea: 2.8 m²
+GrossSideArea: 21.0 m²
+NetSideArea: 17.44 m²
+GrossVolume: 8.4 m³
+NetVolume: 6.98 m³
+FireRating: F 60
+IsExternal: True
+LoadBearing: True
+Brandwand: True
+Expositionsklasse: XC3
+Betongüte: C30/37
+Material: Stahlbeton
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Wand
+Name: Wand-017
+GUID: 0iTz22FMT2nhXHpfJAnlMw
+IfcType: IfcWall
+Geschoss: OG
+Length: 14.58 m
+Height: 0.6 m
+Width: 0.15 m
+GrossFootprintArea: 2.21 m²
+NetFootprintArea: 2.21 m²
+GrossSideArea: 8.84 m²
+NetSideArea: 8.84 m²
+GrossVolume: 1.33 m³
+NetVolume: 1.33 m³
+Brandwand: False
+Expositionsklasse: XC2
+Betongüte: C16/20
+Material: Stahlbeton
+IsExternal: True
+
+Bauteiltyp: Wand
+Name: Wand-017
+GUID: 3BNKro2wD9Z9tqKw2kZzes
+IfcType: IfcWall
+Geschoss: OG
+Length: 7.58 m
+Height: 0.6 m
+Width: 0.15 m
+GrossFootprintArea: 1.14 m²
+NetFootprintArea: 1.14 m²
+GrossSideArea: 4.55 m²
+NetSideArea: 4.55 m²
+GrossVolume: 0.68 m³
+NetVolume: 0.68 m³
+Brandwand: False
+Expositionsklasse: XC2
+Betongüte: C16/20
+Material: Stahlbeton
+IsExternal: True
+
+Bauteiltyp: Wand
+Name: Wand-017
+GUID: 2DBjazrmDD28QxSj4931op
+IfcType: IfcWall
+Geschoss: OG
+Length: 14.58 m
+Height: 0.6 m
+Width: 0.15 m
+GrossFootprintArea: 2.19 m²
+NetFootprintArea: 2.19 m²
+GrossSideArea: 8.75 m²
+NetSideArea: 8.75 m²
+GrossVolume: 1.31 m³
+NetVolume: 1.31 m³
+Brandwand: False
+Expositionsklasse: XC2
+Betongüte: C16/20
+Material: Stahlbeton
+IsExternal: True
+
+Bauteiltyp: Wand
+Name: Wand-017
+GUID: 1cjH1K_Zj2fvtStTJDgY1s
+IfcType: IfcWall
+Geschoss: OG
+Length: 7.58 m
+Height: 0.6 m
+Width: 0.15 m
+GrossFootprintArea: 1.11 m²
+NetFootprintArea: 1.11 m²
+GrossSideArea: 4.46 m²
+NetSideArea: 4.46 m²
+GrossVolume: 0.67 m³
+NetVolume: 0.67 m³
+Brandwand: False
+Expositionsklasse: XC2
+Betongüte: C16/20
+Material: Stahlbeton
+IsExternal: True
+

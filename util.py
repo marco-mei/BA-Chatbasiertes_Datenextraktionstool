@@ -1,8 +1,8 @@
-import ifcopenshell
-import ifcopenshell.geom
-import ifcopenshell.util
+"""Enthält Utility-Funktionen für die Verarbeitung von IFC-Dateien."""
+
 import ifcopenshell.util.element as element
 
+# Liste der relevanten IFC-Entitäten mit deutscher Übersetzung
 ifc_entities = {
     "IfcProject": "Projekt",
     "IfcSite": "Grundstück",
@@ -28,38 +28,40 @@ ifc_entities = {
 
 
 def get_keyvalues(component):
-    all_psets_values = {}
+    """Gibt alle Pset- und Qto-Werte eines Bauteils zurück."""
 
-    all_psets_values['GUID'] = component.GlobalId
-    all_psets_values['IfcType'] = component.is_a()
+    # Erstellt ein Dictionary mit allen IFC-Attributen des Bauteils
+    all_psets_values = {'GUID': component.GlobalId, 'IfcType': component.is_a()}
 
+    # Fügt den Bauteiltypen hinzu, falls dieser in der Liste der relevanten IFC-Entitäten enthalten ist
     if component.is_a().replace('StandardCase', '') in ifc_entities:
         component_type = ifc_entities[component.is_a().replace('StandardCase', '')]
         all_psets_values['Bauteiltyp'] = component_type
-
     else:
         all_psets_values['Bauteiltyp'] = ''
 
+    # Fügt den Bauteilnamen und das Geschoss hinzu
     all_psets_values['Name'] = component.Name
     all_psets_values['Geschoss'] = ''
     level = element.get_container(component)
     if level:
         all_psets_values['Geschoss'] = level.Name
 
-    # get all psets
+    # Generiert eine Liste aller Pset-Werte und fügt diese in eine Liste ein
     psets_content = list(element.get_psets(component, psets_only=True).values())
 
     if psets_content:
         for pset in psets_content:
             all_psets_values.update(pset)
 
-    # get all qtos
+    # Generiert eine Liste aller Qto-Werte und fügt diese in eine Liste ein
     qto_content = list(element.get_psets(component, qtos_only=True).values())
 
     if qto_content:
         for qto in qto_content:
             all_psets_values.update(qto)
 
+    # Löscht alle Einträge aus der Liste, die ein Dictionary enthalten
     del_items = []
     for key in all_psets_values:
         value = all_psets_values[key]
@@ -68,53 +70,5 @@ def get_keyvalues(component):
     for item in del_items:
         del all_psets_values[item]
 
+    # Gibt das Dictionary mit den IFC-Attributen, sowie den bereinigten Pset- und Qto-Werten zurück
     return all_psets_values
-
-
-def get_ifc_elements(ifc_model):
-    elements = ifc_model.by_type("IfcElement")
-    ifc_entities = []
-    for element in elements:
-        ifc_entities.append(element.is_a())
-    return list(set(ifc_entities))
-
-
-def get_number_of_elements(ifc_model, ifc_entity=None):
-    return len(ifc_model.by_type(ifc_entity))
-
-
-def get_number_of_all_entities(ifc_file):
-    ifc_model = ifcopenshell.open(ifc_file)
-    ifc_entities = get_ifc_elements(ifc_model)
-    for entity in ifc_entities:
-        if entity is not None:
-            entity_amount = get_number_of_elements(ifc_model, entity)
-            print(f"{entity}: {entity_amount}")
-
-
-def test_function(ifc_file):
-    ifc_model = ifcopenshell.open(ifc_file)
-    doors = ifc_model.by_type("IfcDoor")
-    for door in doors:
-        print(get_keyvalues(door))
-
-
-def get_all_attributes(ifc_file):
-    ifc_model = ifcopenshell.open(ifc_file)
-    ifc_entities = get_ifc_elements(ifc_model)
-    output_file = open("component_attributes.txt", "w")
-    for entity in ifc_entities:
-        if entity is not None:
-            elements = ifc_model.by_type(entity)
-            for element in elements:
-                output_file.write(entity + "\n")
-                output_file.write(get_keyvalues(element) + "\n")
-                keyvalues = ifcopenshell.util.element.get_psets(element)
-
-
-if __name__ == "__main__":
-    path = "data_ifc_models/Beispielhaus.ifc"
-    ifc = ifcopenshell.open(path)
-    components = ifc.by_type("IfcProduct")
-    for component in components:
-        print(get_keyvalues(component))

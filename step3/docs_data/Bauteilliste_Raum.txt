@@ -1,0 +1,101 @@
+Bauteilliste Raum
+
+Diese Liste enthält alle Bauteile mit dem Bauteiltyp: Raum
+Jeder Absatz beschreibt dabei ein Bauteil.
+Im modell gibt es 5 Bauteile mit dem Bauteiltyp Raum.
+
+Bauteiltyp: Raum
+Name: R-007
+GUID: 2Jzk1pq7zBMx8yZkEC_z6N
+IfcType: IfcSpace
+Height: 2.7 m
+FinishCeilingHeight: 2.7 m
+FinishFloorHeight: 0.1 m
+GrossFloorArea: 36.89 m²
+NetFloorArea: 36.89 m²
+GrossCeilingArea: 36.89 m²
+NetCeilingArea: 36.89 m²
+GrossWallArea: 66.26 m²
+NetWallArea: 48.71 m²
+GrossPerimeter: 24.54 m
+NetPerimeter: 24.54 m
+GrossVolume: 99.6 m³
+NetVolume: 99.6 m³
+FloorCoveringThickness: 0.1
+
+Bauteiltyp: Raum
+Name: R-005
+GUID: 2j6XmeLhb3iPiZWCud2scl
+IfcType: IfcSpace
+Height: 2.7 m
+FinishCeilingHeight: 2.7 m
+FinishFloorHeight: 0.1 m
+GrossFloorArea: 27.39 m²
+NetFloorArea: 27.39 m²
+GrossCeilingArea: 27.39 m²
+NetCeilingArea: 27.39 m²
+GrossWallArea: 62.49 m²
+NetWallArea: 45.69 m²
+GrossPerimeter: 29.99 m
+NetPerimeter: 29.99 m
+GrossVolume: 73.96 m³
+NetVolume: 73.96 m³
+FloorCoveringThickness: 0.1
+
+Bauteiltyp: Raum
+Name: R-001
+GUID: 0OEGXQz4bBJwgHa8UPn2pF
+IfcType: IfcSpace
+Height: 2.7 m
+FinishCeilingHeight: 2.7 m
+FinishFloorHeight: 0.1 m
+GrossFloorArea: 11.81 m²
+NetFloorArea: 11.81 m²
+GrossCeilingArea: 11.81 m²
+NetCeilingArea: 11.81 m²
+GrossWallArea: 29.57 m²
+NetWallArea: 22.37 m²
+GrossPerimeter: 13.9 m
+NetPerimeter: 13.9 m
+GrossVolume: 31.87 m³
+NetVolume: 31.87 m³
+FloorCoveringThickness: 0.1
+
+Bauteiltyp: Raum
+Name: R-002
+GUID: 1QbB5KOnr2Ae2PjYYUbUh8
+IfcType: IfcSpace
+Height: 2.7 m
+FinishCeilingHeight: 2.7 m
+FinishFloorHeight: 0.1 m
+GrossFloorArea: 15.59 m²
+NetFloorArea: 15.59 m²
+GrossCeilingArea: 15.59 m²
+NetCeilingArea: 15.59 m²
+GrossWallArea: 32.13 m²
+NetWallArea: 22.53 m²
+GrossPerimeter: 15.8 m
+NetPerimeter: 15.8 m
+GrossVolume: 42.11 m³
+NetVolume: 42.11 m³
+FloorCoveringThickness: 0.1
+
+Bauteiltyp: Raum
+Name: R-006
+GUID: 0ZleqqBVrDdvYIJOBS0bkV
+IfcType: IfcSpace
+Height: 2.7 m
+FinishCeilingHeight: 2.7 m
+FinishFloorHeight: 0.1 m
+GrossFloorArea: 27.39 m²
+NetFloorArea: 27.39 m²
+GrossCeilingArea: 27.39 m²
+NetCeilingArea: 27.39 m²
+GrossWallArea: 62.49 m²
+NetWallArea: 45.69 m²
+GrossPerimeter: 29.99 m
+NetPerimeter: 29.99 m
+GrossVolume: 73.96 m³
+NetVolume: 73.96 m³
+FloorCoveringThickness: 0.1
+

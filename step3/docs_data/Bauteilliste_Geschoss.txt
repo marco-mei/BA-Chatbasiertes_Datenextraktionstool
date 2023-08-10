@@ -1,0 +1,30 @@
+Bauteilliste Geschoss
+
+Diese Liste enthält alle Bauteile mit dem Bauteiltyp: Geschoss
+Jeder Absatz beschreibt dabei ein Bauteil.
+Im modell gibt es 3 Bauteile mit dem Bauteiltyp Geschoss.
+
+Bauteiltyp: Geschoss
+Name: UG
+GUID: 2wD77FGiRpHvLJ$n_rSCsd
+IfcType: IfcBuildingStorey
+NetHeight: 3.0 m
+GrossHeight: 3.0 m
+GrossFloorArea: 0.0 m²
+
+Bauteiltyp: Geschoss
+Name: EG
+GUID: 2Wk49hkHPC2hvWchm5NASJ
+IfcType: IfcBuildingStorey
+NetHeight: 3.0 m
+GrossHeight: 3.0 m
+GrossFloorArea: 159.41 m²
+
+Bauteiltyp: Geschoss
+Name: OG
+GUID: 2u8QLkhhx4HBrLqA_wnknJ
+IfcType: IfcBuildingStorey
+NetHeight: 3.0 m
+GrossHeight: 3.0 m
+GrossFloorArea: 0.0 m²
+

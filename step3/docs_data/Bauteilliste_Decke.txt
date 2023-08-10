@@ -1,0 +1,119 @@
+Bauteilliste Decke
+
+Diese Liste enthält alle Bauteile mit dem Bauteiltyp: Decke
+Jeder Absatz beschreibt dabei ein Bauteil.
+Im modell gibt es 7 Bauteile mit dem Bauteiltyp Decke.
+
+Bauteiltyp: Decke
+Name: RD-001
+GUID: 0aAN1QYJ98JRDz0JlO6XE3
+IfcType: IfcSlab
+Geschoss: EG
+Width: 0.1 m
+Perimeter: 44.92 m
+GrossArea: 113.85 m²
+NetArea: 113.85 m²
+GrossVolume: 11.39 m³
+NetVolume: 11.39 m³
+FireRating: F 90
+IsExternal: True
+LoadBearing: True
+Expositionsklasse: XC4
+Betongüte: C30/37
+Material: Stahlbeton
+Feuerwiderstandsklasse 4102-2: F 90
+
+Bauteiltyp: Decke
+Name: RD-008
+GUID: 3zuDfoFjzF$xj0mzRo4ZYi
+IfcType: IfcSlab
+Geschoss: EG
+Width: 0.1 m
+Perimeter: 13.9 m
+GrossArea: 11.81 m²
+NetArea: 11.7 m²
+GrossVolume: 1.18 m³
+NetVolume: 1.17 m³
+Material: Fliesen
+IsExternal: False
+LoadBearing: False
+
+Bauteiltyp: Decke
+Name: RD-008
+GUID: 1vsRF__B513Q23b6nQ88$7
+IfcType: IfcSlab
+Geschoss: EG
+Width: 0.1 m
+Perimeter: 15.79 m
+GrossArea: 15.59 m²
+NetArea: 15.45 m²
+GrossVolume: 1.56 m³
+NetVolume: 1.55 m³
+Material: Holz
+IsExternal: False
+LoadBearing: False
+
+Bauteiltyp: Decke
+Name: RD-008
+GUID: 1CWL52bi1DwQzT2ltBs8pR
+IfcType: IfcSlab
+Geschoss: EG
+Width: 0.1 m
+Perimeter: 15.8 m
+GrossArea: 15.59 m²
+NetArea: 15.46 m²
+GrossVolume: 1.56 m³
+NetVolume: 1.55 m³
+Material: Fliesen
+IsExternal: False
+LoadBearing: False
+
+Bauteiltyp: Decke
+Name: RD-009
+GUID: 3Q8w$yfF14jvxnTtNwkzPk
+IfcType: IfcSlab
+Geschoss: EG
+Width: 0.1 m
+Perimeter: 25.27 m
+GrossArea: 38.81 m²
+NetArea: 36.89 m²
+GrossVolume: 3.88 m³
+NetVolume: 3.69 m³
+Material: Holz
+IsExternal: False
+LoadBearing: False
+
+Bauteiltyp: Decke
+Name: RD-008
+GUID: 0rbQ6x8rL7lBTYWA7MKjFr
+IfcType: IfcSlab
+Geschoss: EG
+Width: 0.1 m
+Perimeter: 13.9 m
+GrossArea: 11.81 m²
+NetArea: 11.7 m²
+GrossVolume: 1.18 m³
+NetVolume: 1.17 m³
+Material: Holz
+IsExternal: False
+LoadBearing: False
+
+Bauteiltyp: Decke
+Name: RD-003
+GUID: 1EVOiwKer1jhMrlc2YflYP
+IfcType: IfcSlab
+Geschoss: OG
+Width: 0.2 m
+Perimeter: 44.92 m
+GrossArea: 113.85 m²
+NetArea: 113.85 m²
+GrossVolume: 22.77 m³
+NetVolume: 22.77 m³
+FireRating: F 90
+IsExternal: True
+LoadBearing: True
+Expositionsklasse: XC4
+Betongüte: C30/37
+Material: Stahlbeton
+Feuerwiderstandsklasse 4102-2: F 90
+

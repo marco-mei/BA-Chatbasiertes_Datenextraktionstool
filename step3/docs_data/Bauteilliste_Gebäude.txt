@@ -1,0 +1,12 @@
+Bauteilliste Gebäude
+
+Diese Liste enthält alle Bauteile mit dem Bauteiltyp: Gebäude
+Jeder Absatz beschreibt dabei ein Bauteil.
+Im modell gibt es 1 Bauteile mit dem Bauteiltyp Gebäude.
+
+Bauteiltyp: Gebäude
+Name: Gebäude
+GUID: 00tMo7QcxqWdIGvc4sMN2A
+IfcType: IfcBuilding
+GrossFloorArea: 159.41 m²
+

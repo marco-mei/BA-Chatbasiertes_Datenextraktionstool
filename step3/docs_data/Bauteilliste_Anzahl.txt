@@ -1,0 +1,14 @@
+Bauteilliste_Anzahl
+
+Diese Liste enthält die Anzahl aller Bauteile, die in der IFC-Datei vorkommen.
+
+Projekt: 1
+Grundstück: 1
+Gebäude: 1
+Geschoss: 3
+Wand: 18
+Öffnung: 23
+Fenster: 18
+Tür: 5
+Raum: 5
+Decke: 7

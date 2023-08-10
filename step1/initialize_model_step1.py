@@ -1,4 +1,7 @@
+"""Diese Datei dient dazu, das Sprachmodell für die Stufe 1 zu initialisieren."""
+
 import os
+import openai
 from langchain import PromptTemplate
 from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
@@ -9,26 +12,30 @@ from langchain.vectorstores import Chroma
 
 
 def get_chain(path):
-    """Takes a path to an ifc file and returns a language model that can answer questions about the ifc file."""
-    os.environ["OPENAI_API_KEY"] = "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"  # personal key
+    """Nimmt einen Pfad zu einer ifc-Datei und gibt eine Chain zurück, welche Fragen zur ifc-Datei beantworten kann."""
 
-    # Load the document
+    # Setzt den OpenAI API Key
+    openai.api_key = os.getenv("OPENAI_API_KEY")
+
+    # Lädt das IFC-Modell mithilfe von einem TextLoader ein
     loader = TextLoader(path)
     ifc_model = loader.load()
 
-    # Split the document into chunks
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-
+    # Teilt das Modell zur besseren Verarbeitung in kleinere Texte auf
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=5000, chunk_overlap=200)
     texts = text_splitter.split_documents(ifc_model)
+
+    # Importiert die Embedding Funktion von OpenAI
     embeddings = OpenAIEmbeddings()
 
-    # Create a vectorstore from the documents
+    # Erstellt die Embeddings für die einzelnen Texte und speichert diese in einer Datenbank (Vectorstore)
     docsearch = Chroma.from_documents(texts, embeddings)
 
-    # Prompt template
+    # Prompt template für das Sprachmodell
     prompt_template = """Given the following ifc file that contains information about a building information model with filetype
                 ifc and a question, create a final answer.
                 Answer detailed and in full sentences. Round all number to two decimal places.
+                If you don't know the answer, dont try to come up with an answer. Just write "I don't know".
                 Below the short answer you should add a long answer that contains more information and reasons for your answer (Max. 2 sentences).
 
                 Respond in German.
@@ -39,33 +46,38 @@ def get_chain(path):
                 =========
                 FINAL ANSWER IN German:"""
 
-    # Create a prompt using the template
+    # Erstellt ein Prompt mithilfe des Templates
     prompt = PromptTemplate(template=prompt_template, input_variables=["question", "context"])
-
-    # Prompt kwargs
     chain_type_kwargs = {"prompt": prompt}
 
-    # Configure the language model
+    # Konfiguriert das Sprachmodell von OpenAI und wählt gpt-3.5-turbo-16k aus
     llm = ChatOpenAI(model_name='gpt-3.5-turbo-16k', temperature=0)
 
-    # Create a question-answering chain using the index
+    # Erstellt die Chain mit dem Sprachmodell, dem Prompt und den gespeicherten Embeddings
     chain = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=docsearch.as_retriever(), chain_type_kwargs=chain_type_kwargs)
+
+    # Gibt die Chain zurück
     return chain
 
 
 def generateAnswer(path, query, chain):
-    """Takes a path to an ifc file, a query and a language model and returns an answer to the query."""
+    """Nimmt einen Pfad zu einer IFC-Datei, eine Frage und eine Chain und gibt eine Antwort auf die Frage zurück."""
 
-    # Create context
+    # Speichert den Namen des Modells als Kontext für das Modell
     context = path.split("/")[-1].split(".")[0]
 
+    # Erstellt eine Antwort mithilfe der Chain, der Frage und dem Kontext
     response = chain({"query": query, "context": context})
+
+    # Gibt die Antwort zurück
     return response['result']
 
 
 if __name__ == '__main__':
+    """Testet die Funktionen der Datei."""
+
     path = "../data_ifc_models/Beispielhaus.ifc"
-    query = "Welche Fläche haben die Fenster?"
+    query = "Wie viele Brandwände weisen eine Feuerwiederstandklasse von F60 auf?"
     chain = get_chain(path)
     print(f"{query}:")
     print(generateAnswer(path, query, chain))

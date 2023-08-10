@@ -1,0 +1,86 @@
+Bauteilliste Tür
+
+Diese Liste enthält alle Bauteile mit dem Bauteiltyp: Tür
+Jeder Absatz beschreibt dabei ein Bauteil.
+Im modell gibt es 5 Bauteile mit dem Bauteiltyp Tür.
+
+Bauteiltyp: Tür
+Name: Tür-001
+GUID: 0csZBfUD95axzuieSqYiHA
+IfcType: IfcDoor
+Geschoss: EG
+Height: 2.01 m
+Width: 1.01 m
+Perimeter: 6.04 m
+Area: 2.03 m²
+FireRating: T 60
+HandicapAccessible: True
+IsExternal: True
+Barrierefrei: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: T 60
+
+Bauteiltyp: Tür
+Name: Tür-002
+GUID: 3goUrQ3nP0URTlV_hk08Nn
+IfcType: IfcDoor
+Geschoss: R-001
+Height: 2.01 m
+Width: 0.89 m
+Perimeter: 5.79 m
+Area: 1.78 m²
+FireRating: T 60
+HandicapAccessible: False
+IsExternal: True
+Barrierefrei: False
+Material: Holz
+Feuerwiderstandsklasse 4102-2: T 60
+
+Bauteiltyp: Tür
+Name: Tür-003
+GUID: 0_PWdgL3L7tw9nWvihjL0G
+IfcType: IfcDoor
+Geschoss: R-001
+Height: 2.01 m
+Width: 0.89 m
+Perimeter: 5.79 m
+Area: 1.78 m²
+FireRating: T 60
+HandicapAccessible: False
+IsExternal: True
+Barrierefrei: False
+Material: Holz
+Feuerwiderstandsklasse 4102-2: T 60
+
+Bauteiltyp: Tür
+Name: Tür-005
+GUID: 3vW7cFsWPEseg8XZ8Mcayw
+IfcType: IfcDoor
+Geschoss: EG
+Height: 2.01 m
+Width: 0.89 m
+Perimeter: 5.79 m
+Area: 1.78 m²
+FireRating: T 60
+HandicapAccessible: False
+IsExternal: True
+Barrierefrei: False
+Material: Holz
+Feuerwiderstandsklasse 4102-2: T 60
+
+Bauteiltyp: Tür
+Name: Tür-004
+GUID: 3EYeZ6Ocv63ukAmcVDxPKO
+IfcType: IfcDoor
+Geschoss: R-006
+Height: 2.01 m
+Width: 0.89 m
+Perimeter: 5.79 m
+Area: 1.78 m²
+FireRating: T 60
+HandicapAccessible: False
+IsExternal: True
+Barrierefrei: False
+Material: Holz
+Feuerwiderstandsklasse 4102-2: T 60
+

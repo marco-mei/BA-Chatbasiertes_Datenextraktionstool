@@ -1,0 +1,236 @@
+Bauteilliste Öffnung
+
+Diese Liste enthält alle Bauteile mit dem Bauteiltyp: Öffnung
+Jeder Absatz beschreibt dabei ein Bauteil.
+Im modell gibt es 23 Bauteile mit dem Bauteiltyp Öffnung.
+
+Bauteiltyp: Öffnung
+Name: Fenster-011
+GUID: 3GWua190iac8V64JGSlWb8
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-012
+GUID: 2iQiy0jcc9M$B0pFfb5qMf
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-013
+GUID: 3QekjFl4FW9_y9WXv382re
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-014
+GUID: 3ekX6YTE6qTxYpXaqLJLlF
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-018
+GUID: 3BYhk1tJJ9TYLvlF7CB7m0
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 0.9 m
+Area: 1.8 m²
+Volume: 0.07 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-019
+GUID: 1pQRuZ$0FjBHxqetH1G_$W
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 0.9 m
+Area: 1.8 m²
+Volume: 0.07 m³
+
+Bauteiltyp: Öffnung
+Name: Tür-001
+GUID: 229mrBUdERPuR0G0DaUJxG
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.01 m
+Width: 1.01 m
+Area: 2.03 m²
+Volume: 0.07 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-015
+GUID: 0Zwo7Su3iwij83nGMJ0WLD
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-016
+GUID: 1$jLVnVNSBUFOPsQYDNzaa
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-017
+GUID: 07WFOK7NNRdPTFFZMNjgfR
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-005
+GUID: 3GRAfc_WOfpy1Zmqof6Lq6
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-006
+GUID: 0IyJsIIBtRzHR4p3Z1Qbrd
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-005
+GUID: 1jynp0qBMaEKVWhmdD7quy
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-006
+GUID: 2XmhtS6vuaBgKx_E1iJ7yd
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-007
+GUID: 2ZLdTdb1EvbtHvxuZSzOj9
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-008
+GUID: 2CWL3Mz14NezRY1AMF75gX
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-008
+GUID: 04rO75$Oc38SlgtgjaS5Wu
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-009
+GUID: 3p_eSg9WqKPx$ZDlVF0x6H
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Fenster-010
+GUID: 13gcyru_RERLV4lpRHr_R3
+IfcType: IfcOpeningElement
+Depth: 0.36 m
+Height: 2.0 m
+Width: 1.2 m
+Area: 2.4 m²
+Volume: 0.09 m³
+
+Bauteiltyp: Öffnung
+Name: Tür-002
+GUID: 3uATvvOs0QYbOd81h3Yd6b
+IfcType: IfcOpeningElement
+Depth: 0.4 m
+Height: 2.01 m
+Width: 0.89 m
+Area: 1.78 m²
+Volume: 0.08 m³
+
+Bauteiltyp: Öffnung
+Name: Tür-003
+GUID: 2EiZXMOH6bL3ZQLJe5b_i$
+IfcType: IfcOpeningElement
+Depth: 0.4 m
+Height: 2.01 m
+Width: 0.89 m
+Area: 1.78 m²
+Volume: 0.08 m³
+
+Bauteiltyp: Öffnung
+Name: Tür-004
+GUID: 2KT32$3bSSnJmYkGUNnHIN
+IfcType: IfcOpeningElement
+Depth: 0.4 m
+Height: 2.01 m
+Width: 0.89 m
+Area: 1.78 m²
+Volume: 0.08 m³
+
+Bauteiltyp: Öffnung
+Name: Tür-005
+GUID: 0CghoVT0kT6v3c6B_Ibslg
+IfcType: IfcOpeningElement
+Depth: 0.4 m
+Height: 2.01 m
+Width: 0.89 m
+Area: 1.78 m²
+Volume: 0.08 m³
+

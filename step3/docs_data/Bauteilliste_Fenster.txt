@@ -1,0 +1,258 @@
+Bauteilliste Fenster
+
+Diese Liste enthält alle Bauteile mit dem Bauteiltyp: Fenster
+Jeder Absatz beschreibt dabei ein Bauteil.
+Im modell gibt es 18 Bauteile mit dem Bauteiltyp Fenster.
+
+Bauteiltyp: Fenster
+Name: Fenster-011
+GUID: 16jUHz2UTFUf6s4B0H$oHl
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-012
+GUID: 1EfRytDj5ArReELIVDbbZc
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-013
+GUID: 0lIPTUVIXDlwdILgNBPBEm
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-014
+GUID: 3_I0ogiFHEFwirhiESI__v
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-018
+GUID: 2uR1Gdv8v0UeWNr7VCeaei
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 0.9 m
+Perimeter: 5.8 m
+Area: 1.8 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-019
+GUID: 3AqcFsKY53sASwNBWbLC5T
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 0.9 m
+Perimeter: 5.8 m
+Area: 1.8 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-015
+GUID: 14EKv3QDr8ZxTTtQ86i$_A
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-016
+GUID: 06nLGa_I97yB0v51JlFshT
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-017
+GUID: 0wL978aJ999PEfkxnCDk7N
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-005
+GUID: 3f9Kzqp4z5yBaSyQwIDRzE
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-006
+GUID: 3r7h3wyErA4fQIPPzMwQ9A
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-005
+GUID: 0Hm_DKyJz5SvR0SbGQBpG6
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-006
+GUID: 30BVOV0tf1QgZFLy1$Dsfk
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-007
+GUID: 3jjos76en6eRAnn2rkrdKc
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-008
+GUID: 2paBspVGf0QBcsy9eQ9zO7
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-008
+GUID: 19zfzSYIz4AB$qvHLkh$2i
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-009
+GUID: 3HGiIZDRj9Fff5njeqPkss
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+
+Bauteiltyp: Fenster
+Name: Fenster-010
+GUID: 0QpCYFfOf1lwMyljrKS$mT
+IfcType: IfcWindow
+Geschoss: EG
+Height: 2.0 m
+Width: 1.2 m
+Perimeter: 6.4 m
+Area: 2.4 m²
+FireRating: F 60
+IsExternal: True
+Material: Kunststoff
+Feuerwiderstandsklasse 4102-2: F 60
+

@@ -1,0 +1,13 @@
+Bauteilliste Grundstück
+
+Diese Liste enthält alle Bauteile mit dem Bauteiltyp: Grundstück
+Jeder Absatz beschreibt dabei ein Bauteil.
+Im modell gibt es 1 Bauteile mit dem Bauteiltyp Grundstück.
+
+Bauteiltyp: Grundstück
+Name: Gelände
+GUID: 20FpTZCqJy2vhVJYtjuIce
+IfcType: IfcSite
+GrossPerimeter: 0.0 m
+GrossArea: 0.0 m²
+
