@@ -5,7 +5,7 @@ import ifcopenshell
 
 
 def create_entity_json(path):
-    """Nimmt den Pfad zur IFC-Datei und gibt ein Dictionary zurück, welches alle Bauteile mit ihren Attributen enthält."""
+    """Nimmt den Pfad zur IFC-Datei und gibt ein Dictionary zurück, welches alle Entitäten aus dem Modell enthält."""
 
     # Öffne die IFC-Datei
     ifc = ifcopenshell.open(path)
