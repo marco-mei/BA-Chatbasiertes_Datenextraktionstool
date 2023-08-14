@@ -11,7 +11,7 @@ from step3.create_docs import create_docs
 from step2.create_csv import create_csv
 
 
-def start_chatbox():
+def start_chatbot():
     """Diese Funktion startet den Chatbot."""
     def get_openai_key():
         """Diese Funktion fragt den OpenAI API Key ab und überprüft diesen."""
@@ -114,4 +114,4 @@ def start_chatbox():
 
 
 if __name__ == '__main__':
-    start_chatbox()
+    start_chatbot()
